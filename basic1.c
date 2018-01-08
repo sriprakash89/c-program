@@ -1,10 +1,16 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+ 
+int main()
 {
-int n;
-scanf("%d",&n);
-if(n>1)
-printf("53");
-else(n<0)
-printf("0");
+  int c;
+ 
+  printf("Enter a number ");
+  scanf("%d", &c);
+ 
+  if(c>1)
+     printf("53");
+  else
+     printf("0");
+
+  return 0;
 }

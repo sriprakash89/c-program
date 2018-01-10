@@ -1,6 +1,8 @@
 #include<stdio.h>
-void main()
+int main()
 {
-for(int i=1;i<=5;i++)
+    int n;
+    scanf("%d",&n);
+for(int i=1;i<=n;i++)
 printf("hello\n");
 }

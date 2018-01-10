@@ -8,9 +8,11 @@ int main()
   scanf("%d", &c);
  
   if(c>1)
-     printf("53");
+     printf("positive");
+  else if(c==0)
+     printf("zero");
   else
-     printf("0");
+     printf("negative");
 
   return 0;
 }

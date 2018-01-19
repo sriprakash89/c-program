@@ -1,18 +1,22 @@
-#include<stdio.H>
-void main()
+#include<stdio.h>
+int main()
 {
 int sum=0,a,i,n;
 scanf("%d",&a);
 i=a;
 n=i;
-whlie(n!=0)
+while(i!=0)
 {
-n%=10;
-sum=sum*10+n;
-i/=10;
+n=i%10;
+sum=(sum*10)+n;
+i=i/10;
 }
-if(sum==i)
+if(sum==a)
+{
 printf("palindrome");
+}
 else
+{
 printf("not a palindrome");
+}
 }

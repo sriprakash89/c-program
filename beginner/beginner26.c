@@ -21,7 +21,7 @@ int main()
         }
       }
    
-        printf(" %d\t",a[j]);
    }
+        printf(" %d\t",a[j/2]);
 
 }

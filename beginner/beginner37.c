@@ -1,4 +1,5 @@
 #include<stdio.h>
+int swap(int);
 void main()
 {
 int i,j;
